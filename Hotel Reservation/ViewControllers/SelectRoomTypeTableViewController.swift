@@ -1,6 +1,6 @@
 //
 //  SelectRoomTypeTableViewController.swift
-//  Hotel Manzana
+//  Hotel Reservation
 //
 //  Created by Jon Salkin on 7/13/23.
 //

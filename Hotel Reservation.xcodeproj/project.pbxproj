@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C26AC7F2A5E0716000B8BD4 /* Hotel Manzana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel Manzana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C26AC7F2A5E0716000B8BD4 /* Hotel Reservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel Reservation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C26AC822A5E0716000B8BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C26AC842A5E0716000B8BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C26AC892A5E0716000B8BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		2C26AC762A5E0716000B8BD4 = {
 			isa = PBXGroup;
 			children = (
-				2C26AC812A5E0716000B8BD4 /* Hotel Manzana */,
+				2C26AC812A5E0716000B8BD4 /* Hotel Reservation */,
 				2C26AC802A5E0716000B8BD4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		2C26AC802A5E0716000B8BD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C26AC7F2A5E0716000B8BD4 /* Hotel Manzana.app */,
+				2C26AC7F2A5E0716000B8BD4 /* Hotel Reservation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C26AC812A5E0716000B8BD4 /* Hotel Manzana */ = {
+		2C26AC812A5E0716000B8BD4 /* Hotel Reservation */ = {
 			isa = PBXGroup;
 			children = (
 				2C26AC9B2A5E0A4F000B8BD4 /* Other */,
@@ -72,7 +72,7 @@
 				2C26AC902A5E0717000B8BD4 /* Info.plist */,
 				2C26AC882A5E0716000B8BD4 /* Main.storyboard */,
 			);
-			path = "Hotel Manzana";
+			path = "Hotel Reservation";
 			sourceTree = "<group>";
 		};
 		2C26AC982A5E0757000B8BD4 /* Models */ = {
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C26AC7E2A5E0716000B8BD4 /* Hotel Manzana */ = {
+		2C26AC7E2A5E0716000B8BD4 /* Hotel Reservation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C26AC932A5E0717000B8BD4 /* Build configuration list for PBXNativeTarget "Hotel Manzana" */;
+			buildConfigurationList = 2C26AC932A5E0717000B8BD4 /* Build configuration list for PBXNativeTarget "Hotel Reservation" */;
 			buildPhases = (
 				2C26AC7B2A5E0716000B8BD4 /* Sources */,
 				2C26AC7C2A5E0716000B8BD4 /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hotel Manzana";
+			name = "Hotel Reservation";
 			productName = "Hotel Manzana";
-			productReference = 2C26AC7F2A5E0716000B8BD4 /* Hotel Manzana.app */;
+			productReference = 2C26AC7F2A5E0716000B8BD4 /* Hotel Reservation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C26AC7A2A5E0716000B8BD4 /* Build configuration list for PBXProject "Hotel Reservations" */;
+			buildConfigurationList = 2C26AC7A2A5E0716000B8BD4 /* Build configuration list for PBXProject "Hotel Reservation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C26AC7E2A5E0716000B8BD4 /* Hotel Manzana */,
+				2C26AC7E2A5E0716000B8BD4 /* Hotel Reservation */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +337,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WCLJH7U85A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Hotel Manzana/Info.plist";
+				INFOPLIST_FILE = "Hotel Reservation/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hotel Reservation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -348,8 +349,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SunAndMoonCreative.Hotel-Manzana";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "SunAndMoonCreative.Hotel-Reservation";
+				PRODUCT_NAME = "Hotel Reservation";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,7 +366,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WCLJH7U85A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Hotel Manzana/Info.plist";
+				INFOPLIST_FILE = "Hotel Reservation/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hotel Reservation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,8 +378,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SunAndMoonCreative.Hotel-Manzana";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "SunAndMoonCreative.Hotel-Reservation";
+				PRODUCT_NAME = "Hotel Reservation";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C26AC7A2A5E0716000B8BD4 /* Build configuration list for PBXProject "Hotel Reservations" */ = {
+		2C26AC7A2A5E0716000B8BD4 /* Build configuration list for PBXProject "Hotel Reservation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C26AC912A5E0717000B8BD4 /* Debug */,
@@ -396,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C26AC932A5E0717000B8BD4 /* Build configuration list for PBXNativeTarget "Hotel Manzana" */ = {
+		2C26AC932A5E0717000B8BD4 /* Build configuration list for PBXNativeTarget "Hotel Reservation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C26AC942A5E0717000B8BD4 /* Debug */,
